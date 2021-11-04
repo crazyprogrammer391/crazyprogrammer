@@ -1,0 +1,8 @@
+.mobile-container{
+    display: flex;
+    flex-direction: column;
+}
+.mc-content-container{
+    margin-top: 64px;
+    padding-bottom: 100px;
+}

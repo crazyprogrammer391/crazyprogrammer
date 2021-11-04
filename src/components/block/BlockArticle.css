@@ -1,0 +1,43 @@
+.block-article-container{
+    width: 30%;
+    margin: 10px;
+    /* background-color: cornflowerblue; */
+    /* height: 400px; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 10px;
+}
+.bac-img{
+    width: 100%;
+    height: 300px;
+}
+.bac-h2{
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bac-p{
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+    font-weight: 200;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .block-article-container{
+        /* width: 50%; */
+        width: 91%;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        padding: 10px;
+        border: 1px solid black;
+    }
+
+}

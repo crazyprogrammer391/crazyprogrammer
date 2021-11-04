@@ -1,0 +1,141 @@
+.options-container{
+    display: flex;
+    flex-direction: column;
+}
+.oc-main-content{
+    margin-top: 64px;
+    /* background-color: cornsilk; */
+    padding: 20px;
+}
+/* .ocmc-title{
+    
+} */
+.ocmc-h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    font-size: 50px;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+.ocmc-text-area{
+    margin-top: -30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    /* padding: 20px 150px; */
+    font-size: 18px;
+    line-height: 2rem;
+}
+.ocmc-contents-block{
+    margin-left: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(230, 223, 223);
+    padding: 10px;
+    width: 350px;
+    margin-top: 50px;
+}
+.ocmccb-h3{
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-align: center;
+    font-variant: small-caps;
+    text-decoration: underline;
+}
+.ocmccb-ol{
+    color: blue;
+}
+.options-text-block{
+    padding-right: 200px;
+    text-align: justify;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.options-footnote{
+    display: flex;
+}
+.footnote-number{
+    color: blue;
+    margin-right: 5px;
+}
+.footnote-p{
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+}
+.footnote-a{
+    padding: 0;
+    margin: 0;
+}
+.options-h4{
+    margin: 0;
+    padding: 0;
+}
+.options-italic{
+    font-style: italic;
+    text-decoration: underline;
+}
+.disclaimer{
+    font-size: 14px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.sources-container{
+    margin-top: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: lightgray;
+    font-size: 16px;
+    margin-right: 200px;
+}
+.options-blockquote{
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: lightgray;
+    line-height: 1.25rem;
+    border-radius: 10px;
+}
+
+
+/**
+*----------------------------MOBILE READY-------------------------------
+**/
+
+@media only screen and (max-width: 600px) {
+    .options-text-block{
+        padding-right: 0px;
+    }
+    .ocmc-text-area{
+        margin-top: -30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        /* padding: 20px 150px; */
+        font-size: 18px;
+        line-height: 2rem;
+    }
+
+    .options-blockquote{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .sources-container{
+        margin-right: 0px;
+    }
+
+    .ocmc-contents-block{
+        margin-left: 0px;
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: rgb(230, 223, 223);
+        padding: 10px;
+        width: 350px;
+        margin-top: 50px;
+    }
+
+  }

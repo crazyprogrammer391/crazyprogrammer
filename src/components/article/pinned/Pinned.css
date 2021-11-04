@@ -1,0 +1,11 @@
+.pinned-container{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid red;
+}
+.pc-img{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
